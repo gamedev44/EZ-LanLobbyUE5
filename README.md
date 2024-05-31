@@ -21,12 +21,12 @@ To integrate a multiplayer lobby into your Unreal Engine 5.3 game, follow these 
      - Go to `Edit` > `Project Settings` > `Maps & Modes`.
      - Under `Default Modes`, set the `Default GameMode` to `GameMode`.
 
-4. **Recreating BP_GameState Functionality**:
-   - Recreate the functionality of the `BP_GameState` class from the source project in your project. This involves creating a new `GameState` blueprint and copying over the necessary logic.
+4. **Recreating BP_GameInstance Functionality**: -Optional
+   - Recreate the functionality of the `BP_GameInstance` class from the source project in your project. This involves creating a new `GameState` blueprint and copying over the necessary logic.
      - Right-click in the Content Browser and select `Blueprint Class`.
-     - Choose `GameState` as the parent class.
-     - Name the blueprint (e.g., `MyGameState`).
-     - Open the blueprint and recreate the logic from the source project's `BP_GameState`. This might include variables, functions, and events necessary for the multiplayer lobby.
+     - Choose `GameInstance` as the parent class.
+     - Name the blueprint (e.g., `MyGameInstance`).
+     - Open the blueprint and recreate the logic from the source project's `BP_GameInstance`. This might include variables, functions, and events necessary for the multiplayer lobby.
 
 5. **Adding Map Name to MapNames Enum**:
    - Add your map name to the `MapNames` enum to ensure it is recognized by the multiplayer system.
