@@ -1,4 +1,4 @@
- # Easy LAN Multiplayer Lobby System for Unreal Engine 5.+
+ # Easy LAN Multiplayer Lobby System for UE5+
 
 This repository provides an out-of-the-box LAN multiplayer lobby system template for Unreal Engine 5.3. You can use this as a starting point to set up a local area network (LAN) multiplayer lobby in your game.
 
